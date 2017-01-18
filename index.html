@@ -1,0 +1,36 @@
+This is the first web page that would be published from GitHub ...
+Trying to edit the file after editing the domain name ...
+
+git init
+git status
+git add #NameOfTheFile
+git status
+git commit -m "#NameOfTheMessage"
+// Create a directory in the path (say text files) ...
+git add '*.txt'
+
+git log
+git remote add origin https://github.com/try-git/try_git.git
+
+git push -u origin master
+git pull origin master
+git diff HEAD
+
+git add octofamily/octodog.txt
+git diff --staged
+
+git reset octofamily/octodog.txt
+
+git checkout -- octocat.txt
+
+git branch cleanup
+git checkout cleanup
+git rm '*.txt'
+
+git commit -m "#NameOfTheMessage(for removal)"
+git checkout master
+
+git merge cleanup
+
+git branch -d cleanup
+git push
